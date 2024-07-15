@@ -121,7 +121,6 @@ ol {
 
 .content__video-card-description-container {
   width: 200px;
-  height: 101px;
   flex-grow: 1;
   gap: 6px;
 }
@@ -317,7 +316,7 @@ li:last-child:has(.more-button:focus-visible) {
 
 .content__card-link_current {
   display: block;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .search-form__textfield {
