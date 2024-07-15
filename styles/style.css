@@ -84,9 +84,8 @@ ol {
   outline: 0;
   display: block;
   margin: 2px;
-  color: var(--color-white);
   width: 394px;
-
+  color: var(--color-white);
 }
 
 .content__list {
@@ -102,12 +101,13 @@ ol {
 }
 
 .content__card-link:active {
-  background-color: var(--color-black-100);
+  background-color:  #545050;
 }
 
 
 .content__card-link:hover {
   text-decoration: underline 1px var(--color-white);
+  background-color: #545050;
 }
 
 
@@ -201,7 +201,7 @@ ol {
 }
 
 .button:active {
-  background-color: var(--color-black-100);
+  background-color: #545050;
 }
 
 
@@ -315,8 +315,8 @@ li:last-child:has(.more-button:focus-visible) {
 }
 
 .content__card-link_current {
+  color: #545050;
   display: block;
-  color: rgba(255, 255, 255, 0.7);
 }
 
 .search-form__textfield {
