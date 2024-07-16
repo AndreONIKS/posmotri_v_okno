@@ -107,7 +107,6 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline 1px var(--color-white);
-  background-color: #545050;
 }
 
 
@@ -315,8 +314,7 @@ li:last-child:has(.more-button:focus-visible) {
 }
 
 .content__card-link_current {
-  color: #545050;
-  display: block;
+  background-color: #545050;
 }
 
 .search-form__textfield {
